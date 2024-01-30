@@ -1,0 +1,26 @@
+#cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+#city {
+  color: white;
+  font: 2rem sans-serif;
+  margin: 20px;
+}
+
+#temp {
+  color: white;
+  font-size: 15rem;
+  margin: 5px;
+}
+
+#cloud {
+  color: white;
+  align-self: flex-end;
+  font: 2rem sans-serif;
+  transform-origin: 0, 0;
+  transform: rotate(269deg);
+}
